@@ -2,11 +2,12 @@
 
 # Create a *list* of 10 random numbers. Use the `runif()` function to make a 
 # vector of random numbers, then use `as.list()` to convert that to a list
-
+random <- runif(10, min = 1, max = 40)
+numbers <- as.list(random)
 
 # Use `lapply()` to apply the `round()` function to each number, rounding it to 
 # the nearest 0.1 (one decimal place)
-
+numbers1 <- lapply(numbers, round(numbers))
 
 # Create a variable 'sentence' that contains a sentence of text (something 
 # longish). Make the sentence lowercase; you can use a function to help.
