@@ -11,7 +11,7 @@ meals <- list(my_breakfast, my_lunch, TRUE)
 
 # Add a "dinner" element to your `meals` list that has what you plan to eat 
 # for dinner
-dinner <- c("Rice", "Chicken", "Fruits", "Soup")
+meals$dinner <- c("Rice", "Chicken", "Fruits", "Soup")
 
 # Use dollar notation to extract your `dinner` element from your list
 # and save it in a vector called 'dinner'
